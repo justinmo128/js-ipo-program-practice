@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap');
+
+html {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background: #1F1F1F url("img/bg.png") fixed;
+}
+
+body {
+  margin: auto;
+}
+
+.thing {
+  width: 600px;
+  margin: 20px auto;
+  background: #25232A;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.5);
+  display: flex;
+  text-align: center;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.bigbutton {
+  width: 350px;
+  height: 80px;
+  margin-bottom: 5px;
+  background-image: linear-gradient(to right, #4FC82F, #19B14E);
+  color: rgba(255, 255, 255, 0.7);
+  border-width: 0;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.bigbutton:hover {
+  background-image: linear-gradient(to right, #70D61D, #19B14E);
+  color: white;
+  cursor: pointer;
+}
+
+/* Scrollbar */
+/* always show scrollbar */
+body {
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1E1E1E;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  height: 56px;
+  border-radius: 8px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  background-color: #BD54F2;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: radial-gradient(#641d66, #BD54F2);
+}
